@@ -1,0 +1,50 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inicio > h1 {
+  font-size: 110px;
+  color: rgb(255, 111, 0);
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+.inicio2 {
+  background-color: rgb(255, 111, 0);
+  border-radius: 20px;
+  margin: 20px 20px;
+  z-index: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.inicio2 > h2 {
+  color: rgb(255, 231, 215);
+  font-size: 40px;
+}
+.inicio2 > p {
+  color: rgb(94, 38, 0);
+  font-size: 25px;
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  padding: 15px;
+}
+button {
+  color: rgb(255, 231, 215);
+  background-color: rgba(238, 174, 125, 0.705);
+  padding: 15px;
+  width: 70px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
