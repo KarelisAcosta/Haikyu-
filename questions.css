@@ -56,7 +56,6 @@ section {
 .question {
   width: 900px;
   height: 550px;
-  border: 1px solid green;
 }
 
 .option > img {
