@@ -63,7 +63,7 @@ let teams = {
   C: {
     title: "¡Perteneces a Shiratorizawa!",
     text: "Eres fuerte, competitivo y confías en tus habilidades individuales. Tu poder y técnica son impresionantes, y siempre estás listo para dominar en la cancha.",
-    img: "./img/Karasuno_Team.webp",
+    img: "/img/Shiratorizawa.png",
   },
 
   D: {
